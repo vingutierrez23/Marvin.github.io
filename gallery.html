@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAVIGATION BAR</title>
+          
+        <style>
+            body {
+                background-image: url('image6.jpg');
+               background-size: cover;
+  }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: none;
+  }
+
+  li {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li ul li::after{
+    background:green;
+  } 
+
+  li a:hover {
+    background-color: green  ;
+  }     
+
+  h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    
+  }
+
+    p {
+    margin: none;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 15px  ;
+    color:whitesmoke;
+    text-align: center;
+    }
+
+    div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+   
+        </style>
+    
+    </head>
+<body background="PIC.jpg.png">
+
+
+    <ul>
+        
+        <li><a href="file:///C:/Users/COMLAB2-33/Documents/website/home.html">HOME</a></li>
+        <li><a href="file:///C:/Users/COMLAB2-33/Documents/website/gallery.html">PRODUCTS</a></li>
+        <li><a href="https://www.youtube.com/watch?v=sbv9AwKVKEo">VIDEO</a></li>
+        <li><a href="file:///C:/Users/COMLAB2-33/Documents/website/signup.html">SIGN UP</a></li>
+        <li><a href="file:///C:/Users/COMLAB2-33/Documents/website/index.html">MARVIN'S PORTFOLIO</a></li>
+        <li><a href="file:///C:/Users/COMLAB2-33/Documents/website/contact.html">CONTACT</a></li>
+      </ul>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="image1.jpg">
+            <img src="image1.jpg" alt="image1" width="600" height="400">
+          </a>
+          <div class="desc">RILACES BLACK</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="image2.jpg">
+            <img src="image2.jpg" alt="image2" width="600" height="400">
+          </a>
+          <div class="desc">RILACES BLACK AND WHITE</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="image3.jpg">
+            <img src="image3.jpg" alt="image3.jpg" width="600" height="400">
+          </a>
+          <div class="desc">RILACES TIGER</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="image4.jpg">
+            <img src="image4.jpg" alt="image4" width="600" height="400">
+          </a>
+          <div class="desc">RILACES SOLID RED</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      
+        
+      
+    
+</html>
+</body> 
